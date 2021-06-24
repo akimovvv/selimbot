@@ -3,7 +3,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.types import CallbackQuery
 
 from keyboards.inline import yes_no, product_categories, product_keyboard, contact_true, contact_false, about_us, order_size, razrabotan
-from loader import dp, _, bot
+from loader import dp,  bot
 import utils.db_api.db_commands as db
 from states import Service, Make_order, Menu_contact
 

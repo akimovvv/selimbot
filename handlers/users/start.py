@@ -3,7 +3,7 @@ from aiogram.dispatcher.filters.builtin import CommandStart
 from aiogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
 from keyboards.default import main_menu_keyboard
-from loader import dp, _
+from loader import dp
 import utils.db_api.db_commands as db
 
 
